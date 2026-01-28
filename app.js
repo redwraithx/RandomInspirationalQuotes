@@ -6,11 +6,7 @@
 
 
 const init = () => {
-    const totalQuotes = inspirationalList.length;
-
-    const randomIndex = Math.floor(Math.random() * totalQuotes);
-
-    const randomQuote = inspirationalList[randomIndex];
+    const randomQuote = dataObject.getRandomSentence();
 
     const messageArea = document.getElementById('messageArea');
 
