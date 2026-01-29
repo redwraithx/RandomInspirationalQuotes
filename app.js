@@ -6,7 +6,7 @@
 
 
 const init = () => {
-    const randomQuote = dataObject.getRandomSentence();
+    const randomQuote = dataObject.getRandomSentenceQuote();
 
     const messageArea = document.getElementById('messageArea');
 
